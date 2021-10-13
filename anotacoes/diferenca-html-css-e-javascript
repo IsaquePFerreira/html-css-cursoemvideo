@@ -1,0 +1,53 @@
+HTML, CSS e JavaScript
+
+Como funcionam a HTML e as CSSs?
+
+HTML - HYPERTEXT MARKUP LANGUAGE
+
+CSS - CASCADING STYLE SHEETS
+
+HTML -> conteudo -> textos, imagens, videos, tabelas;
+
+CSS -> design ->  cores, sombras, tamanhos, posicionamento;
+
+JS -> interações -> menus, animacoes, popups, validacoes
+
+conteudo em HTML
+    abertura de tag <h1>
+        conteudo
+    fechamento de tag </h1>
+    
+    <h1>Exemplo de titulo</h1>
+    <p>Exemplo de pagrafo</p>
+
+as tag tambem podem possuir parametros com valores dentro deles
+    parametro -> src, alt
+    valor "foto.png", "Exemplo de foto" (colocados entre aspas)    
+    <img src ="foto.png"  alt ="Exemplo de foto">
+
+estilo em CSS
+    seletor -> h1 { }
+    declaracao -> font-family: Arial;
+    propriedade -> color:
+    valor -> blue
+h1 {
+    font-family: Arial;
+    font-size: 20pt;
+    color: blue;
+}
+
+estrutura basica de documento HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=width=devie-width, initialscale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Olá, Mundo!</h1>
+    </body>
+</html>
+    
+como funciona a HTML e as CSS?

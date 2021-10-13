@@ -1,0 +1,17 @@
+o que é dominio e hospedagem?
+
+outras pessoas vao ver meus sites?
+    dominio -> nome do seu site; nome unico; pago anualmente; varios TLDs;
+    hospedagem -> espaco para armazenar arquivos; pago mensalmente; espaco, memoria, recursos
+
+URL -> localizador de recurso unico
+    dominio(depois do www, porem pode ser que nao apareca o www antes)
+        TLD -> GTLD; CCTLD
+    sub-dominio
+    caminho
+
+URL = gustavoguanabara.github.io
+
+    dominio -> github
+    TLD -> GTLD -> .io
+    sub-dominio -> gustavoguanabara

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: lightyellow;
+        }
+
+        header {
+            background-color: firebrick;
+            margin: 0;
+            padding-top: 5px;
+            
+        }
+        header > h1 {
+            text-align: center;
+        }
+        nav {
+            background-color: darkred;
+            margin: 4px;
+            padding: 5px;
+            box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.466);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        main {
+            width: 600px;
+            height: 500px;
+            background-color: ghostwhite;
+            border: 2px solid lightslategray;
+            border-radius: 0px 10px 0px 0px;
+            padding: 5px;
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #destaque {
+            background-color: rgb(70, 81, 92);
+            padding: 2px 5px;
+            border-radius: 0px 10px 10px 0px;
+            color: white;
+                
+        }
+        #noticias > p {
+            text-align: justify;
+        }
+        footer {
+            
+            background-color: rgb(120, 137, 155);
+            padding: 4px;
+            padding-bottom: 1px;
+
+            
+        }
+
+        footer > p {
+            text-align: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <h1>Meu Site</h1>
+    <main>
+        <section id="destaque">
+            <p> GAMES - PC - CONSOLE</p>
+        </section>
+        <section id="noticias">
+            <h2>Novo jogo de aventura e mundo aberto lançado</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum amet vitae accusamus harum consectetur laudantium distinctio, voluptatibus consequuntur ipsam doloremque ipsum quidem mollitia eum cupiditate! Architecto delectus odio officia placeat.</p>
+        </section>
+    </main>
+    <footer>
+        <p>meusite.com</p>
+    </footer>
+</body>
+</html>
