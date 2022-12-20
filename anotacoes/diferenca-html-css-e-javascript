@@ -10,7 +10,7 @@ HTML -> conteudo -> textos, imagens, videos, tabelas;
 
 CSS -> design ->  cores, sombras, tamanhos, posicionamento;
 
-JS -> interações -> menus, animacoes, popups, validacoes
+JS -> interações -> menus, animações, popups, validações
 
 conteudo em HTML
     abertura de tag <h1>
@@ -20,7 +20,7 @@ conteudo em HTML
     <h1>Exemplo de titulo</h1>
     <p>Exemplo de pagrafo</p>
 
-as tag tambem podem possuir parametros com valores dentro deles
+as tag também podem possuir parâmetros com valores dentro deles
     parametro -> src, alt
     valor "foto.png", "Exemplo de foto" (colocados entre aspas)    
     <img src ="foto.png"  alt ="Exemplo de foto">
@@ -36,7 +36,7 @@ h1 {
     color: blue;
 }
 
-estrutura basica de documento HTML
+estrutura básica de documento HTML
 
 <!DOCTYPE html>
 <html lang="pt-br">
