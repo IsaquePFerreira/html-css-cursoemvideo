@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex 001</title>
+  <style>
+    .container {
+      background-color: lightsalmon;     
+      display: flex;
+      width: 500px;
+      margin: 10px auto;
+    }
+
+    .row-reverse {
+      flex-direction: row-reverse;
+    }
+    
+    .column {
+      flex-direction: column;
+    }
+    
+    .column-reverse {
+      flex-direction: column-reverse;
+    }
+
+    .item {
+      background-color: lightcyan;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flex 001</h1>
+  <div class="container">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+  </div>
+  <div class="container row-reverse">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+  </div>
+  <div class="container column">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+  </div>
+  <div class="container column-reverse">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+  </div>
+</body>
+</html>
